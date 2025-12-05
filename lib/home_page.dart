@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue.shade50, // Light soft background
+      backgroundColor: Colors.blue.shade50, 
 
       appBar: AppBar(
         backgroundColor: Colors.blue,
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Flutter Icon
+            
             const Icon(
               Icons.flutter_dash,
               size: 110,
@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
 
             const SizedBox(height: 25),
 
-            // Hello Text
+            
             const Text(
               "Hello Everyone",
               style: TextStyle(
@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
 
             const SizedBox(height: 10),
 
-            // Welcome text
+            
             const Text(
               "Welcome to Flutter",
               style: TextStyle(
@@ -55,19 +55,19 @@ class HomePage extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // Name Text
+            
             const Text(
               "Myself BuShrA",
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
-                color: Colors.purple,   // Purple color
+                color: Colors.purple,   
               ),
             ),
 
             const SizedBox(height: 40),
 
-            // Stylish Navigation Button
+            
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
