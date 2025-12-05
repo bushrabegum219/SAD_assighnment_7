@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
 
             
             const Text(
-              "Myself BuShrA",
+              "Myself BUSHRA",
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
