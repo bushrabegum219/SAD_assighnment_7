@@ -14,7 +14,7 @@ class _NewPageState extends State<NewPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 107, 5, 122),
+      backgroundColor: const Color.fromARGB(255, 44, 18, 48),
 
       appBar: AppBar(
         backgroundColor: Colors.blue,
